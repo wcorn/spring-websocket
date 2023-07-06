@@ -9,4 +9,8 @@ public class LoginController {
     public String login(){
         return "/login";
     }
+    @GetMapping("/chatroom")
+    public String chatroom(){
+        return "/chatroom";
+    }
 }
