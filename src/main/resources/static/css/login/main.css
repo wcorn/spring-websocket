@@ -1,0 +1,53 @@
+.login {
+    width: 48%;
+    height: 82%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid #867BF4;
+    border-radius: 11px;
+    transition: all 0.6s ease-in-out;
+}
+
+.login-name {
+    font-size: 3em;
+    font-weight: bold;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #867BF4;
+}
+
+.input-name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #867BF4;
+    border-radius: 11px;
+    padding: 3% 2%;
+    margin: 1% 0;
+    width: 40%;
+    font-size: 1.2em;
+}
+input::placeholder {
+    color: GRAY;
+}
+button {
+    position: absolute;
+    width: 40%;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 11px;
+    border: 1px solid #867BF4;
+    background-color: #867BF4;
+    color: #FFFFFF;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 2% 2%;
+    margin: 1% 0;
+}
